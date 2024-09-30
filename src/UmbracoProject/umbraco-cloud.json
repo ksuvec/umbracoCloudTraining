@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "kec training",
+      "Alias": "kec-training",
+      "Id": "8fb0b059-0d10-4a28-bfff-d0a91a60478a",
+      "TrialExpireDate": "2024-10-14T12:31:50.0000000",
+      "Workspaces": [
+        {
+          "Id": "bd347be0-371c-4250-8218-17b184f753d6",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://kec-training.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
