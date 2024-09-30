@@ -7,6 +7,12 @@
       "TrialExpireDate": "2024-10-14T12:31:50.0000000",
       "Workspaces": [
         {
+          "Id": "3ce947fd-4cbf-43ca-9bc5-5e60f41764dd",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-kec-training.euwest01.umbraco.io"
+        },
+        {
           "Id": "bd347be0-371c-4250-8218-17b184f753d6",
           "Name": "Live",
           "Type": "live",
