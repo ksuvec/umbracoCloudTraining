@@ -1,0 +1,72 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/b2072503e23b4dbc93b2e7a99f9bf664",
+  "AllowedTemplates": [
+    "umb://template/b2072503e23b4dbc93b2e7a99f9bf664"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-home color-black",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "8fb9efec-c20d-436b-ba0c-34a64d094a29",
+      "Name": "Header",
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "042eb519-a199-4c3f-b1c7-d3f726805f06",
+          "Alias": "highlightText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Highlight Text",
+          "SortOrder": 1
+        },
+        {
+          "Key": "23275b4a-ca9c-460b-b61e-b3f3723cd11c",
+          "Alias": "companyName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Name"
+        }
+      ]
+    },
+    {
+      "Key": "b6cade91-76c4-40a8-afce-1d6539b82f35",
+      "Name": "Footer",
+      "SortOrder": 1,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "24e0807a-cc5f-4834-bf9a-b5676a0e75b5",
+          "Alias": "companyPhone",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Phone",
+          "SortOrder": 1
+        },
+        {
+          "Key": "8f1f86b6-7d0e-40f5-8c18-aed276b780c6",
+          "Alias": "companyAdress",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Adress"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/1f5a5f1487d94ae886a4c050ec2db3d8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/b2072503e23b4dbc93b2e7a99f9bf664",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.2.1"
+}
