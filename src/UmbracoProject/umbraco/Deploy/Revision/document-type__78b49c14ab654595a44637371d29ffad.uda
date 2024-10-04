@@ -8,6 +8,7 @@
   "HistoryCleanup": {},
   "Icon": "icon-alert color-black",
   "Thumbnail": "folder.png",
+  "Description": "This is a description made locally on dev",
   "Permissions": {
     "AllowedChildContentTypes": []
   },
